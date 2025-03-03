@@ -1,38 +1,59 @@
 <!DOCTYPE html>
-<!-- This is my project -->
+<html lang = "en">
+<head>
 
+
+<!-- This is my project -->
+<script>
+    window.scrollTo(0, 0);
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <meta name="author" content="Veronica Meneses">
     <meta name="description" content="An informal webpage about singer/songwriter Lana del Rey.">
     <meta name="keywords" content="Lana del Rey, Songwriter, Lyrics, indie pop, aesthetic">
-    <title>All about Lana del Rey</title>
+    <title> All about Lana del Rey </title>
+
+
+
+    <link rel="stylesheet" href="css/css-demo.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
 </head>
 
-<body>
-
+ <body>
+    <div class ="wrapper">
     <header>
         <!-- this is the title of my article -->
-        <h1>Who is <em>Lana del Rey?</em></h1>
+        <h1 class = "tracking-in-expand" >Who is <em>Lana del Rey?</em></h1>
         <p><b>Lana Del Rey</b>, whose real name is Elizabeth Woolridge Grant, is an American singer, songwriter, and record producer. Her music is known for its cinematic quality and exploration of tragic romance, glamour, and melancholia.</p>
     </header>
 
+    <nav>
+        <ul>
+
+            <li><a href="#early-life">Early Life and Career</a></li>
+            <li><a href="#rise-to-fame">Rise to Fame</a></li>
+            <li><a href="#album">Album Tracklist</a></li>
+            <li><a href="#official-site">Official Site</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
+        <section id="early-life">
             <h2>Early Life and Career</h2>
-            <p><b>Lana Del Rey</b> was born June 21, 1985, in Manhattan, New York, U.S. She began her career performing at open mic nights and clubs, releasing demos. She signed with an independent record label after entering a songwriting competition in 2006.</p>
+            <p><b>Lana Del Rey</b>  was born June 21, 1985, Manhattan, New York, U.S. Lana Del Rey began her career performing at open mic nights and clubs, and releasing demos. She signed with an independent record label after entering a songwriting competition in 2006.</p>
         </section>
 
-        <section>
-            <h2>Lana’s Rise to Fame</h2>
-            <p><b>Lana Del Rey</b> rose to fame in 2011 with the viral success of her song "Video Games". The song was the first single from her debut album, Born to Die, which was released in 2012.</p>
+        <section id="rise-to-fame">
+            <h2>Lana's Rise to Fame</h2>
+            <p><b>Lana Del Rey</b> rose to fame in 2011 with the viral success of her song "Video Games". The song was the first single from her debut album, Born to Die, which was released in 2012. </p>
         </section>
 
-        <section>
+        <section id="album">
             <h3>Popular Album “Born to Die” Song Tracklist</h3>
-            <a href="https://www.youtube.com/watch?v=lB9dNZwtlC0">Listen to Lana's Album</a>
-
-            <h3>Ordered List</h3>
+            <a  href="https://www.youtube.com/watch?v=lB9dNZwtlC0">Listen to Lana's Album</a>
             <ol>
                 <li>Born To Die</li>
                 <li>Off To The Races</li>
@@ -49,25 +70,22 @@
             </ol>
         </section>
 
-        <section>
-            <a href="https://www.lanadelrey.com">
-                <h3>Lana's official site</h3>
+        <section id="official-site">
+            <a class=" Lana-site" href="https://www.lanadelrey.com">
+          Lana's official site
             </a>
-        </section>
-<section>
+      
+    </main>
 
+    <section id="gallery">
+        <h3 class="section-title"  >Gallery</h3> <br>
 
-    <img src="images/lana1.jpeg" alt="lana del rey" width="300" height="200">
-
-    <img src="images/lana2.jpeg" alt="lana del rey" width="300" height="200">
-
-    <img src="images/lana3.jpg" alt="lana del rey" width="300" height="200">
+       <figure> <img class="image-style" src="images/lana1.jpeg" alt="lana del rey" width="300" height="200"> </figure>
+        <figure><img class="image-style" src="images/lana2.jpeg" alt="lana del rey" width="300" height="200"> </figure>
+       <figure><img class="image-style" src="images/lana3.jpg" alt="lana del rey" width="300" height="200"> </figure> 
+    </section>
     
-    
-
-</section>
-
-</main>
+</div>
 
 </body>
 </html>
